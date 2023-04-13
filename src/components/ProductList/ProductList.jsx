@@ -5,13 +5,13 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Nike General Purpose Shoe', price: 5000, description: ''},
+    {id: '1', title: 'Nike General Shoe', price: 5000, description: ''},
     {id: '2', title: 'Nike Cortez', price: 12000, description: ''},
     {id: '3', title: 'Nike Air Humara', price: 5000, description: ''},
     {id: '4', title: 'Nike Dunk Low', price: 122, description: ''},
-    {id: '5', title: 'Nike Hot Step Air Terra', price: 5000, description: ''},
+    {id: '5', title: 'Nike Hot Step Air ', price: 5000, description: ''},
     {id: '6', title: 'Nike Air Force 1', price: 600, description: ''},
-    {id: '7', title: 'Nike Air Trainer 1', price: 5500, description: ''},
+    {id: '7', title: 'Nike Air Trainer ', price: 5500, description: ''},
     {id: '8', title: 'Nike LeBron 20', price: 12000, description: ''},
 ]
 

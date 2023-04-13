@@ -5,14 +5,14 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Nike', price: 5000, description: 'General Purpose Shoe'},
-    {id: '2', title: 'Nike', price: 12000, description: 'Cortez'},
-    {id: '3', title: 'Nike', price: 5000, description: 'Air Humara'},
-    {id: '4', title: 'Nike', price: 122, description: 'Dunk Low'},
-    {id: '5', title: 'Nike', price: 5000, description: 'Hot Step Air Terra'},
-    {id: '6', title: 'Nike', price: 600, description: 'Air Force 1'},
-    {id: '7', title: 'Nike', price: 5500, description: 'Air Trainer 1'},
-    {id: '8', title: 'Nike', price: 12000, description: 'LeBron 20'},
+    {id: '1', title: 'Nike General Purpose Shoe', price: 5000, description: ''},
+    {id: '2', title: 'Nike Cortez', price: 12000, description: ''},
+    {id: '3', title: 'Nike Air Humara', price: 5000, description: ''},
+    {id: '4', title: 'Nike Dunk Low', price: 122, description: ''},
+    {id: '5', title: 'Nike Hot Step Air Terra', price: 5000, description: ''},
+    {id: '6', title: 'Nike Air Force 1', price: 600, description: ''},
+    {id: '7', title: 'Nike Air Trainer 1', price: 5500, description: ''},
+    {id: '8', title: 'Nike LeBron 20', price: 12000, description: ''},
 ]
 
 const getTotalPrice = (items = []) => {
